@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_mascota"
+    android:layout_marginBottom="16dp"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/perro"
+            android:id="@+id/imgMascota"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgBotonVotar"
+            android:src="@drawable/dog_bone_48"
+            android:layout_below="@id/imgMascota"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginLeft="@dimen/left"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNombre"
+            android:text="Nombre"
+            android:textSize="25dp"
+            android:layout_below="@id/imgMascota"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginLeft="55dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgRaquin"
+            android:src="@drawable/dog_bone_color"
+            android:layout_below="@id/imgMascota"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginLeft="300dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/numeroMegusta"
+            android:text="0"
+            android:textSize="25dp"
+            android:layout_below="@id/imgMascota"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginLeft="340dp"/>
+
+    </RelativeLayout>
+
+
+
+
+</android.support.v7.widget.CardView>

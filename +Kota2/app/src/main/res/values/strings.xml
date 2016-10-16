@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">+Kota2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombreBio">SantiDev</string>
+    <string name="fechaNacimiento">15 de Agosto del 2000</string>
+    <string name="texto"> soy santiago tengo 16 años me gusta y amo la programacion
+    esta actividad la practico desde hace un año y medio desde entonces he decidio dedicarme a esto.
+    </string>
+    <string name="texto2">He tenido hasta el momento un buen avance en esta practica
+    hasta el momento me siento estable y en constante aprendizaje poco a poce noto que me empiezo a desemvolver mejor
+    casi a diario dedico 2 o 3 horas a desarrollar e investigar temas que se me bienen a la cabeza e investigo
+    cosas relacionadas.... todo el tiempo trato de actualizarme</string>
+
+    <string name="texto3">Mi gran sueño es algun dia poder trabajar para google
+    es un sueño que se que para poder lograrlo hay que trabajar muy duro pero eso no es algo
+    que me desanime al contrario esto me da muchos mas animos de continuar ...
+    </string>
+</resources>
